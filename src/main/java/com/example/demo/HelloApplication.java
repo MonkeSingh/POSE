@@ -36,7 +36,7 @@ public class HelloApplication extends GameApplication{
 
     @Override
     protected void initSettings(GameSettings gameSettings) {
-        gameSettings.setTitle("TEST");
+        gameSettings.setTitle("TEST1");
     }
 
     @Override
