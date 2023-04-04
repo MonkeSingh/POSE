@@ -1,0 +1,10 @@
+    TextField playerNameInput = new TextField();
+    playerNameInput.setPromptText("Enter your name");
+    playerNameInput.setTranslateX(50);
+    playerNameInput.setTranslateY(100);
+    playerNameInput.setOnAction(e -> {
+        PlayerNameService playerNameService = FXGL.getService(PlayerNameService.class);
+        playerNameService.setPlayerName(playerNameInput.getText());
+    });
+
+    FXGL.getGameScene().addUINode(playerNameInput);

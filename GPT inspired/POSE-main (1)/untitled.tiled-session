@@ -1,0 +1,31 @@
+{
+    "activeFile": "POSE-main/src/main/resources/assets/textures/tmx.tmx",
+    "expandedProjectPaths": [
+        "POSE-main/src/main",
+        "POSE-main/.idea",
+        "POSE-main/src/main/resources",
+        "POSE-main",
+        ".",
+        "POSE-main/src/main/resources/assets",
+        "POSE-main/src/main/resources/assets/textures",
+        "POSE-main/src"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "POSE-main/src/main/resources/assets/textures/tmx.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 360,
+                "y": 256.99999999999994
+            }
+        }
+    },
+    "openFiles": [
+        "POSE-main/src/main/resources/assets/textures/tmx.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "POSE-main/src/main/resources/assets/textures/tmx.tmx"
+    ]
+}
