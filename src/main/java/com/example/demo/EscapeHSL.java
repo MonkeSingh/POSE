@@ -143,6 +143,7 @@ public class EscapeHSL extends GameApplication{
 
     public static void main(String[] args){
         launch(args);
+        System.out.println("Hello World");
     }
 
 }
