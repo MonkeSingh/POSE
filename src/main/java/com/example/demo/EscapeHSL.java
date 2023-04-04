@@ -14,8 +14,7 @@ import javafx.util.Duration;
 
 import java.util.Map;
 
-import static com.almasb.fxgl.dsl.FXGLForKtKt.getAppHeight;
-import static com.almasb.fxgl.dsl.FXGLForKtKt.getAppWidth;
+import static com.almasb.fxgl.dsl.FXGLForKtKt.*;
 
 //public class HelloApplication extends Application {
 //    @Override
@@ -83,12 +82,14 @@ public class EscapeHSL extends GameApplication{
 
     @Override
     protected void initGame(){
-        player = FXGL.entityBuilder().at(100, 100)
-                .viewWithBBox("test2.png")
-                .with(new CollidableComponent(true))
-                .scale(0.2, 0.2)
-                .type(EntityTypes.PLAYER)
-                .buildAndAttach();
+        getGameWorld().addEntityFactory(new EscapeFactory());
+        player = spawn("player", 100, 100);
+//        player = FXGL.entityBuilder().at(100, 100)
+//                .viewWithBBox("test2.png")
+//                .with(new CollidableComponent(true))
+//                .scale(0.2, 0.2)
+//                .type(EntityTypes.PLAYER)
+//                .buildAndAttach();
 
 //        FXGL.getGameTimer().runAtInterval(() -> {
 //            FXGL.entityBuilder()
@@ -131,7 +132,7 @@ public class EscapeHSL extends GameApplication{
         text.textProperty().bind(FXGL.getWorldProperties().intProperty("kills").asString());
 
         FXGL.getGameScene().addUINode(text);
-        FXGL.getGameScene().setBackgroundColor(Color.BLACK);
+//        FXGL.getGameScene().setBackgroundColor(Color.BLACK);
 
     }
 
