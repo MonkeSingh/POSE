@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="70" tileheight="70" nextobjectid="65">
+ <properties>
+  <property name="star1time" type="float" value="7"/>
+ </properties>
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,153,70,0,0,0,46,153,0,0,0,0,
+0,0,0,0,153,82,0,0,0,58,153,0,0,0,0,
+0,0,0,0,153,101,101,101,101,101,153,0,0,0,0,
+0,0,0,0,0,0,70,153,46,0,0,0,0,0,70,
+0,0,0,0,0,0,82,153,58,0,0,0,0,0,82,
+101,101,101,101,101,101,101,153,101,101,101,101,101,101,101,
+0,0,0,153,0,0,0,153,0,0,0,153,46,0,0,
+46,0,70,153,70,0,46,153,46,0,70,153,58,0,70,
+58,0,82,153,82,0,58,153,58,0,82,153,101,65,82,
+101,101,101,153,101,101,101,153,101,101,101,153,153,101,101
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="44" type="platform" x="0" y="350" width="1050" height="70"/>
+  <object id="45" type="platform" x="0" y="630" width="1050" height="70"/>
+  <object id="46" type="platform" x="350" y="140" width="350" height="70"/>
+  <object id="47" type="platform" x="840" y="560" width="70" height="70"/>
+  <object id="48" type="wall" x="210" y="420" width="70" height="210"/>
+  <object id="49" type="wall" x="490" y="420" width="70" height="210"/>
+  <object id="50" type="wall" x="770" y="420" width="70" height="210"/>
+  <object id="51" type="wall" x="490" y="210" width="70" height="140"/>
+  <object id="52" type="wall" x="280" y="0" width="70" height="210"/>
+  <object id="53" type="wall" x="700" y="0" width="70" height="210"/>
+  <object id="55" type="door" x="140" y="490" width="70" height="140"/>
+  <object id="56" type="door" x="420" y="210" width="70" height="140"/>
+  <object id="58" type="door" x="280" y="490" width="70" height="140"/>
+  <object id="60" type="door" x="980" y="210" width="70" height="140"/>
+  <object id="61" type="door" x="700" y="490" width="70" height="140"/>
+  <object id="62" type="door" x="350" y="0" width="70" height="140"/>
+  <object id="64" type="door" x="980" y="490" width="70" height="140"/>
+ </objectgroup>
+</map>
